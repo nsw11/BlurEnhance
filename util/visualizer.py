@@ -29,9 +29,7 @@ class Visualizer():
     # |visuals|: dictionary of images to display or save
     def display_current_results(self, visuals, epoch):
         if self.display_id > 0: # show images in the browser
-            if self.display_single_pane_ncols > 0:
-                h, w = next(iter(visuals.values())).shape[:2]
-                table_css = """<style>
+
     table {border-collapse: separate; border-spacing:4px; white-space:nowrap; text-align:center}
     table td {width: %dpx; height: %dpx; padding: 4px; outline: 4px solid black}
 </style>""" % (w, h)
