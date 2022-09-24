@@ -13,6 +13,7 @@ class Visualizer():
         self.win_size = opt.display_winsize
         self.name = opt.name
         if self.display_id > 0:
+            print('WE TURNED DOWN VISDOM WINDOW FOR COLAB BECAUSE WE CANT USE SERVERS IN COLAB')
             pass
 
         if self.use_html:
