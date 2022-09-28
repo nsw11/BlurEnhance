@@ -103,7 +103,7 @@ def print_network(net):
 class ResnetGenerator(nn.Module):
     def __init__(
             self, input_nc, output_nc, ngf=64, norm_layer=nn.BatchNorm2d, use_dropout=False,
-            n_blocks=6, gpu_ids=[], use_parallel=True, learn_residual=False, padding_type='reflect'):
+            n_blocks=10, gpu_ids=[], use_parallel=True, learn_residual=False, padding_type='reflect'):
         assert (n_blocks >= 0)
         super(ResnetGenerator, self).__init__()
         self.input_nc = input_nc
