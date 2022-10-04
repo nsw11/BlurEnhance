@@ -1,5 +1,6 @@
-#This repository is meant for use with Google Colab at the following link: https://colab.research.google.com/drive/1wzzHKH1seVvh-S6O4E9WYUp3iPn7_VQ9?usp=sharing
-# any modifications from the base repo is done by Nicholas Wen
+# This repository is meant for use with Google Colab at the following link: https://colab.research.google.com/drive/1wzzHKH1seVvh-S6O4E9WYUp3iPn7_VQ9?usp=sharing
+
+any modifications from the base repo is done by Nicholas Wen
 # DeblurGAN
 [arXiv Paper Version](https://arxiv.org/pdf/1711.07064.pdf)
 
